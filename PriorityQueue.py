@@ -73,4 +73,7 @@ fila.insert('prioridade2', 2)
 
 fila.remove()
 
+
+# Na maioria dos casos, é mais eficiente ajustar na inserção, porque garante que a remoção do elemento de maior prioridade seja imediata (O(1)), tornando o processamento mais rápido
+
 print(fila.peek())
