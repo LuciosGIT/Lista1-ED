@@ -2,7 +2,7 @@
 
 from Node import Node
 
-class Deck:
+class Deque:
 
     def __init__ (self):
         self.head = None
@@ -84,7 +84,7 @@ class Deck:
     
 
 
-dll = Deck()
+dll = Deque()
 dll.insertOnHead(10)
 dll.insertOnTail(20)
 dll.insertOnTail(30)
